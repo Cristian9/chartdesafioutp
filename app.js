@@ -3,6 +3,7 @@ var app = express();
 var fs = require("fs");
 var request = require("request");
 var http = require("http").Server(app);
+var PORT = process.env.PORT || 3000;
 
 
 app.use(express.static(__dirname + '/statics/'));
@@ -10,8 +11,8 @@ app.use(express.static(__dirname + '/statics/'));
 
 var html = fs.readFileSync("./views/index.html");
 
-http.listen(3000, function(){
-	console.log('Server on port 3000');
+http.listen(PORT, function(){
+	console.log('Server on port: ' + PORT);
 });
 
 app.get("/", function(req, res){

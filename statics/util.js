@@ -11,12 +11,7 @@ function ajax(){
 	})
 	.done(function(data){
 		var data = eval(data);
-		console.log(data);
-
 		var users = ['95729', '95730', '95731', '95732'];
-
-
-
 		var dataChart = [];
 
 		for(var j = 0; j < data.length; j++) {
@@ -24,8 +19,6 @@ function ajax(){
 				dataChart[users.indexOf($.trim(data[j].ID))] = data[j];
 			}
 		}
-
-		console.log(dataChart);
 
 		var Myline = new Chart(
 			document.getElementById("chartjs-2"),
