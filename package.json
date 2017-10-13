@@ -7,13 +7,15 @@
     "start": "node app.js"
   },
   "engines" : {
-    "node" : "6.11.x"
+    "node" : "6.10.X"
   },
   "author": "Cristian Tapia",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
-    "express": "*",
-    "fs": "*",
-    "request": "*"
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "request": "^2.83.0",
+    "socket.io": "^2.0.3"
   }
 }
