@@ -48,20 +48,6 @@ function ajax(){
 
 				    "animation": {
 				        "duration": 0
-				    },
-
-				    "legends" : {
-				    	"display" : false
-				    },
-
-				    "tooltips" : {
-				    	enabled: true,
-       					mode: 'single',
-       					callbacks: {
-				            label: function(tooltipItems, data) {
-				                return "Puntaje Acumulado: " + tooltipItems.xLabel;
-				            }
-				        }
 				    }
 				}
 			}
