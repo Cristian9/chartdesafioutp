@@ -1,0 +1,20 @@
+{
+  "name": "chartdesafioutp",
+  "version": "1.0.0",
+  "description": "Barras para medir los puntajes del juego",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines" : {
+    "node" : "6.11.x"
+  },
+  "author": "Cristian Tapia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "fs": "*",
+    "http": "*",
+    "request": "*"
+  }
+}
