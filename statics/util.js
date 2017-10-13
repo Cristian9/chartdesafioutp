@@ -6,7 +6,7 @@ window.onload = function(){
 }
 
 function ajax(){
-	$.get('http://localhost:3000/graficar', {
+	$.get('http://chartdesafioutp.herokuapp.com/graficar', {
 			curso_id : 'UTP1'
 	})
 	.done(function(data){
