@@ -10,7 +10,7 @@
     "node" : "6.11.x"
   },
   "author": "Cristian Tapia",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "*",
     "fs": "*",
