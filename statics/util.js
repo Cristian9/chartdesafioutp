@@ -1,5 +1,5 @@
 window.onload = function(){
-	ajax();
+	//ajax();
 	setInterval(function(){
 		ajax();
 	}, 3000)
